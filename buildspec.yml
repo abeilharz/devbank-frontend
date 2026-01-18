@@ -4,7 +4,7 @@ env:
   variables:
     IMAGE_REPO_NAME: "devbank-frontend"
     DOCKERHUB_USERNAME: "abeilharz"
-    REACT_APP_BACKEND_URL: "http://devbank-backend-alb-1736781402.us-east-1.elb.amazonaws.com"   # ggf. ohne Port
+    REACT_APP_BACKEND_URL: "http://13.221.200.197:8081"   
   secrets-manager:
     DOCKERHUB_PASSWORD: "dockerhub/credentials:password"
 
